@@ -61,7 +61,7 @@ const cn = {
     },
     Commands: {
       new: "新建聊天",
-      newm: "从面具新建聊天",
+      newm: "从角色新建聊天",
       next: "下一个聊天",
       prev: "上一个聊天",
       clear: "清除上下文",
@@ -77,7 +77,7 @@ const cn = {
         dark: "深色模式",
       },
       Prompt: "快捷指令",
-      Masks: "所有面具",
+      Masks: "所有角色",
       Clear: "清除聊天",
       Settings: "对话设置",
       UploadImage: "上传图片",
@@ -96,7 +96,7 @@ const cn = {
     StopSpeak: "停止",
     Config: {
       Reset: "清除记忆",
-      SaveAs: "存为面具",
+      SaveAs: "存为角色",
     },
     IsContext: "预设提示词",
     ShortcutKey: {
@@ -121,8 +121,8 @@ const cn = {
       SubTitle: "可以导出 Markdown 文本或者 PNG 图片",
     },
     IncludeContext: {
-      Title: "包含面具上下文",
-      SubTitle: "是否在消息中展示面具上下文",
+      Title: "包含角色上下文",
+      SubTitle: "是否在消息中展示角色上下文",
     },
     Steps: {
       Select: "选取",
@@ -259,18 +259,18 @@ const cn = {
 
       LocalState: "本地数据",
       Overview: (overview: any) => {
-        return `${overview.chat} 次对话，${overview.message} 条消息，${overview.prompt} 条提示词，${overview.mask} 个面具`;
+        return `${overview.chat} 次对话，${overview.message} 条消息，${overview.prompt} 条提示词，${overview.mask} 个角色`;
       },
       ImportFailed: "导入失败",
     },
     Mask: {
       Splash: {
-        Title: "面具启动页",
-        SubTitle: "新建聊天时，展示面具启动页",
+        Title: "角色启动页",
+        SubTitle: "新建聊天时，展示角色启动页",
       },
       Builtin: {
-        Title: "隐藏内置面具",
-        SubTitle: "在所有面具列表中隐藏内置面具",
+        Title: "隐藏内置角色",
+        SubTitle: "在所有角色列表中隐藏内置角色",
       },
     },
     Prompt: {
@@ -722,11 +722,11 @@ const cn = {
     },
   },
   Mask: {
-    Name: "面具",
+    Name: "角色",
     Page: {
-      Title: "预设角色面具",
+      Title: "预设角色角色",
       SubTitle: (count: number) => `${count} 个预设角色定义`,
-      Search: "搜索角色面具",
+      Search: "搜索角色角色",
       Create: "新建",
     },
     Item: {
@@ -739,7 +739,7 @@ const cn = {
     },
     EditModal: {
       Title: (readonly: boolean) =>
-        `编辑预设面具 ${readonly ? "（只读）" : ""}`,
+        `编辑预设角色 ${readonly ? "（只读）" : ""}`,
       Download: "下载预设",
       Clone: "克隆预设",
     },
@@ -764,8 +764,8 @@ const cn = {
         SubTitle: "启用之后可以自动折叠/展开过长的代码块",
       },
       Share: {
-        Title: "分享此面具",
-        SubTitle: "生成此面具的直达链接",
+        Title: "分享此角色",
+        SubTitle: "生成此角色的直达链接",
         Action: "复制链接",
       },
     },
@@ -775,8 +775,8 @@ const cn = {
     Skip: "直接开始",
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
-    Title: "挑选一个面具",
-    SubTitle: "现在开始，与面具背后的灵魂思维碰撞",
+    Title: "挑选一个角色",
+    SubTitle: "现在开始，与角色背后的灵魂思维碰撞",
     More: "查看全部",
   },
 
