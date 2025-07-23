@@ -497,7 +497,7 @@ export const VISION_MODEL_REGEXES = [
 
 export const EXCLUDE_VISION_MODEL_REGEXES = [/claude-3-5-haiku-20241022/];
 
-const openaiModels = [
+const openaiModels string[] = [
   // As of July 2024, gpt-4o-mini should be used in place of gpt-3.5-turbo,
   // as it is cheaper, more capable, multimodal, and just as fast. gpt-3.5-turbo is still available for use in the API.
   /*
@@ -537,7 +537,7 @@ const openaiModels = [
   */
 ];
 
-const googleModels = [
+const googleModels string[] = [
   /*
   "gemini-1.5-pro-latest",
   "gemini-1.5-pro",
@@ -562,7 +562,7 @@ const googleModels = [
   */
 ];
 
-const anthropicModels = [
+const anthropicModels string[] = [
   /*
   "claude-instant-1.2",
   "claude-2.0",
@@ -583,7 +583,7 @@ const anthropicModels = [
   */
 ];
 
-const baiduModels = [
+const baiduModels string[] = [
   /*
   "ernie-4.0-turbo-8k",
   "ernie-4.0-8k",
@@ -599,7 +599,7 @@ const baiduModels = [
   */
 ];
 
-const bytedanceModels = [
+const bytedanceModels string[] = [
   /*
   "Doubao-lite-4k",
   "Doubao-lite-32k",
@@ -610,7 +610,7 @@ const bytedanceModels = [
   */
 ];
 
-const alibabaModes = [
+const alibabaModes string[] = [
   /*
   "qwen-turbo",
   "qwen-plus",
@@ -625,7 +625,7 @@ const alibabaModes = [
   */
 ];
 
-const tencentModels = [
+const tencentModels string[] = [
   /*
   "hunyuan-pro",
   "hunyuan-standard",
@@ -637,9 +637,9 @@ const tencentModels = [
   */
 ];
 
-const moonshotModes = [/* "moonshot-v1-8k", "moonshot-v1-32k", "moonshot-v1-128k" */];
+const moonshotModes string[] = [/* "moonshot-v1-8k", "moonshot-v1-32k", "moonshot-v1-128k" */];
 
-const iflytekModels = [
+const iflytekModels string[] = [
   /*
   "general",
   "generalv3",
@@ -649,9 +649,9 @@ const iflytekModels = [
   */
 ];
 
-const deepseekModels = [/* "deepseek-chat", "deepseek-coder", "deepseek-reasoner" */];
+const deepseekModels string[] = [/* "deepseek-chat", "deepseek-coder", "deepseek-reasoner" */];
 
-const xAIModes = [
+const xAIModes string[] = [
   /*
   "grok-beta",
   "grok-2",
@@ -676,7 +676,7 @@ const xAIModes = [
   */
 ];
 
-const chatglmModels = [
+const chatglmModels string[] = [
   /*
   "glm-4-plus",
   "glm-4-0520",
@@ -698,7 +698,7 @@ const chatglmModels = [
   */
 ];
 
-const siliconflowModels = [
+const siliconflowModels string[] = [
   /*
   "Qwen/Qwen2.5-7B-Instruct",
   "Qwen/Qwen2.5-72B-Instruct",
@@ -717,7 +717,7 @@ const siliconflowModels = [
   */
 ];
 
-const ai302Models = [
+const ai302Models string[] = [
   /*
   "deepseek-chat",
   "gpt-4o",
