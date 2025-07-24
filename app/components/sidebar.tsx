@@ -34,8 +34,8 @@ import clsx from "clsx";
 import { isMcpEnabled } from "../mcp/actions";
 
 const DISCOVERY = [
-  { name: Locale.Plugin.Name, path: Path.Plugins },
-  { name: "Stable Diffusion", path: Path.Sd },
+  // { name: Locale.Plugin.Name, path: Path.Plugins },
+  // { name: "Stable Diffusion", path: Path.Sd },
   { name: Locale.SearchChat.Page.Title, path: Path.SearchChat },
 ];
 
@@ -270,6 +270,7 @@ export function SideBar(props: { className?: string }) {
             }}
             shadow
           />
+          */ }
           {mcpEnabled && (
             <IconButton
               icon={<McpIcon />}
@@ -288,7 +289,7 @@ export function SideBar(props: { className?: string }) {
             onClick={() => setshowDiscoverySelector(true)}
             shadow
           />
-          */ }
+
         </div>
         {showDiscoverySelector && (
           <Selector
