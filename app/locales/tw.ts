@@ -453,6 +453,12 @@ const tw = {
     Clear: "上下文已清除",
     Revert: "恢復上下文",
   },
+  Discovery: {
+    Name: "發現",
+  },
+  Mcp: {
+    Name: "MCP",
+  },
   Plugin: { Name: "外掛" },
   FineTuned: { Sysmessage: "你是一個助手" },
   Mask: {

@@ -613,13 +613,33 @@ export function ChatActions(props: {
             icon={<BottomIcon />}
           />
         )}
-        {props.hitBottom && (
+        <ChatAction
+          onClick={props.showPromptModal}
+          text={"数据分析"}
+          icon={<BrainIcon />}
+        />
+        <ChatAction
+          onClick={props.showPromptModal}
+          text={"发言总结"}
+          icon={<BrainIcon />}
+        />
+        <ChatAction
+          onClick={props.showPromptModal}
+          text={"深度研究"}
+          icon={<BrainIcon />}
+        />
+        <ChatAction
+          onClick={props.showPromptModal}
+          text={"理论提炼"}
+          icon={<BrainIcon />}
+        />
+        {/* props.hitBottom && (
           <ChatAction
             onClick={props.showPromptModal}
             text={Locale.Chat.InputActions.Settings}
             icon={<SettingsIcon />}
           />
-        )}
+        ) */}
 
         {showUploadImage && (
           <ChatAction
@@ -628,6 +648,7 @@ export function ChatActions(props: {
             icon={props.uploading ? <LoadingButtonIcon /> : <ImageIcon />}
           />
         )}
+        {/* 
         <ChatAction
           onClick={nextTheme}
           text={Locale.Chat.InputActions.Theme[theme]}
@@ -643,13 +664,15 @@ export function ChatActions(props: {
             </>
           }
         />
-
+        */ }
+        {/* 
         <ChatAction
           onClick={props.showPromptHints}
           text={Locale.Chat.InputActions.Prompt}
           icon={<PromptIcon />}
         />
-
+        */ }
+        {/* 
         <ChatAction
           onClick={() => {
             navigate(Path.Masks);
@@ -657,7 +680,7 @@ export function ChatActions(props: {
           text={Locale.Chat.InputActions.Masks}
           icon={<MaskIcon />}
         />
-
+        */ }
         <ChatAction
           text={Locale.Chat.InputActions.Clear}
           icon={<BreakIcon />}
@@ -824,7 +847,7 @@ export function ChatActions(props: {
             }}
           />
         )}
-
+        {/* 
         {!isMobileScreen && (
           <ChatAction
             onClick={() => props.setShowShortcutKeyModal(true)}
@@ -832,6 +855,7 @@ export function ChatActions(props: {
             icon={<ShortcutkeyIcon />}
           />
         )}
+        */ }
         {!isMobileScreen && <MCPAction />}
       </>
       <div className={styles["chat-input-actions-end"]}>
