@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
 import { CN_MASKS } from "./cn";
-import { TW_MASKS } from "./tw";
-import { EN_MASKS } from "./en";
+// import { TW_MASKS } from "./tw";
+// import { EN_MASKS } from "./en";
 
 import { type BuiltinMask } from "./typing";
 
