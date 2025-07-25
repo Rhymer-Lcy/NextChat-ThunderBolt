@@ -291,6 +291,7 @@ const ar: PartialLocaleType = {
     },
 
     Access: {
+      /*
       SaasStart: {
         Title: "استخدام NextChat AI",
         Label: "(أفضل حل من حيث التكلفة)",
@@ -298,15 +299,18 @@ const ar: PartialLocaleType = {
           "مدعوم رسميًا من NextChat، جاهز للاستخدام بدون إعداد، يدعم أحدث النماذج الكبيرة مثل OpenAI o1 و GPT-4o و Claude-3.5",
         ChatNow: "الدردشة الآن",
       },
+      */
       AccessCode: {
         Title: "كلمة المرور للوصول",
         SubTitle: "قام المشرف بتمكين الوصول المشفر",
         Placeholder: "أدخل كلمة المرور للوصول",
       },
+      /*
       CustomEndpoint: {
         Title: "واجهة مخصصة",
         SubTitle: "هل تستخدم خدمة Azure أو OpenAI مخصصة",
       },
+      */
       Provider: {
         Title: "موفر الخدمة النموذجية",
         SubTitle: "التبديل بين مقدمي الخدمة المختلفين",
