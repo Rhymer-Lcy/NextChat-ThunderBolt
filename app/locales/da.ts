@@ -309,10 +309,12 @@ const da: PartialLocaleType = {
         SubTitle: "Adgangskontrol er slået til",
         Placeholder: "Skriv kode her",
       },
+      /*
       CustomEndpoint: {
         Title: "Brugerdefineret adresse",
         SubTitle: "Brug Azure eller OpenAI fra egen server",
       },
+      */
       Provider: {
         Title: "Model-udbyder",
         SubTitle: "Vælg Azure eller OpenAI",
