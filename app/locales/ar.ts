@@ -26,8 +26,8 @@ const ar: PartialLocaleType = {
     Later: "في وقت لاحق",
     Return: "عودة",
     SaasTips: "الإعدادات معقدة، أريد استخدامه على الفور",
-    TopTips:
-      "🥳 عرض NextChat AI الأول، افتح الآن OpenAI o1, GPT-4o, Claude-3.5 وأحدث النماذج الكبيرة",
+    // TopTips:
+    //  "🥳 عرض NextChat AI الأول، افتح الآن OpenAI o1, GPT-4o, Claude-3.5 وأحدث النماذج الكبيرة",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} محادثة`,
