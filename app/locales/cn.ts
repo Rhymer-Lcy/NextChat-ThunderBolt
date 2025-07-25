@@ -89,7 +89,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全，: 触发命令";
+      return inputHints + "，: 触发命令"; // / 触发补全，
     },
     Send: "发送",
     StartSpeak: "说话",
