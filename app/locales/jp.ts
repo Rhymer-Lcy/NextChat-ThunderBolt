@@ -26,8 +26,8 @@ const jp: PartialLocaleType = {
     Later: "後で",
     Return: "戻る",
     SaasTips: "設定が面倒すぎる、すぐに使いたい",
-    TopTips:
-      "🥳 NextChat AIの発売特典で、OpenAI o1、GPT-4o、Claude-3.5などの最新の大規模モデルを今すぐアンロック",
+    // TopTips:
+    //   "🥳 NextChat AIの発売特典で、OpenAI o1、GPT-4o、Claude-3.5などの最新の大規模モデルを今すぐアンロック",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count}件の会話`,
@@ -292,6 +292,7 @@ const jp: PartialLocaleType = {
     },
 
     Access: {
+      /*
       SaasStart: {
         Title: "NextChat AIを使用する",
         Label: "(コストパフォーマンスの最も高いソリューション)",
@@ -299,16 +300,19 @@ const jp: PartialLocaleType = {
           "NextChatによって公式に管理されており、設定なしですぐに使用でき、OpenAI o1、GPT-4o、Claude-3.5などの最新の大規模モデルをサポートしています",
         ChatNow: "今すぐチャット",
       },
+      */
 
       AccessCode: {
         Title: "アクセスパスワード",
         SubTitle: "管理者が暗号化アクセスを有効にしました",
         Placeholder: "アクセスパスワードを入力してください",
       },
+      /*
       CustomEndpoint: {
         Title: "カスタムエンドポイント",
         SubTitle: "カスタムAzureまたはOpenAIサービスを使用するかどうか",
       },
+      */
       Provider: {
         Title: "モデルプロバイダー",
         SubTitle: "異なるプロバイダーに切り替える",

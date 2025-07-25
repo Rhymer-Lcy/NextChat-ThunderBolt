@@ -26,8 +26,8 @@ const tw = {
     Later: "稍候再說",
     Return: "返回",
     SaasTips: "設定太麻煩，想要立即使用",
-    TopTips:
-      "🥳 NextChat AI 首發優惠，立刻解鎖 OpenAI o1, GPT-4o, Claude-3.5 等最新的大型語言模型",
+    // TopTips:
+    //   "🥳 NextChat AI 首發優惠，立刻解鎖 OpenAI o1, GPT-4o, Claude-3.5 等最新的大型語言模型",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 則對話`,
@@ -298,6 +298,7 @@ const tw = {
     },
 
     Access: {
+      /*
       SaasStart: {
         Title: "使用 NextChat AI",
         Label: "(性價比最高的方案)",
@@ -305,16 +306,19 @@ const tw = {
           "由 NextChat 官方維護，無須設定開箱即用，支援 OpenAI o1、GPT-4o、Claude-3.5 等最新的大型語言模型",
         ChatNow: "立刻開始對話",
       },
+      */
 
       AccessCode: {
         Title: "存取密碼",
         SubTitle: "管理員已開啟加密存取",
         Placeholder: "請輸入存取密碼",
       },
+      /*
       CustomEndpoint: {
         Title: "自訂 API 端點 (Endpoint)",
         SubTitle: "是否使用自訂 Azure 或 OpenAI 服務",
       },
+      */
       Provider: {
         Title: "模型供應商",
         SubTitle: "切換不同的服務供應商",

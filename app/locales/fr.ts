@@ -27,8 +27,8 @@ const fr: PartialLocaleType = {
     Return: "Retour",
     SaasTips:
       "La configuration est trop compliquée, je veux l'utiliser immédiatement",
-    TopTips:
-      "🥳 Offre de lancement NextChat AI, débloquez OpenAI o1, GPT-4o, Claude-3.5 et les derniers grands modèles",
+    // TopTips:
+    //   "🥳 Offre de lancement NextChat AI, débloquez OpenAI o1, GPT-4o, Claude-3.5 et les derniers grands modèles",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} conversations`,
@@ -305,6 +305,7 @@ const fr: PartialLocaleType = {
     },
 
     Access: {
+      /*
       SaasStart: {
         Title: "Utiliser NextChat AI",
         Label: "(La solution la plus rentable)",
@@ -312,16 +313,19 @@ const fr: PartialLocaleType = {
           "Officiellement maintenu par NextChat, prêt à l'emploi sans configuration, prend en charge les derniers grands modèles comme OpenAI o1, GPT-4o et Claude-3.5",
         ChatNow: "Discuter maintenant",
       },
+      */
 
       AccessCode: {
         Title: "Mot de passe d'accès",
         SubTitle: "L'administrateur a activé l'accès sécurisé",
         Placeholder: "Veuillez entrer le mot de passe d'accès",
       },
+      /*
       CustomEndpoint: {
         Title: "Interface personnalisée",
         SubTitle: "Utiliser un service Azure ou OpenAI personnalisé",
       },
+      */
       Provider: {
         Title: "Fournisseur de modèle",
         SubTitle: "Changer de fournisseur de service",

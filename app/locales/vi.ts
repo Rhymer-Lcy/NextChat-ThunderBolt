@@ -26,8 +26,8 @@ const vi: PartialLocaleType = {
     Later: "Để sau",
     Return: "Trở lại",
     SaasTips: "Cấu hình quá phức tạp, tôi muốn sử dụng ngay lập tức",
-    TopTips:
-      "🥳 Ưu đãi ra mắt NextChat AI, mở khóa OpenAI o1, GPT-4o, Claude-3.5 và các mô hình lớn mới nhất ngay bây giờ",
+    // TopTips:
+    //   "🥳 Ưu đãi ra mắt NextChat AI, mở khóa OpenAI o1, GPT-4o, Claude-3.5 và các mô hình lớn mới nhất ngay bây giờ",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} cuộc trò chuyện`,
@@ -293,6 +293,7 @@ const vi: PartialLocaleType = {
     },
 
     Access: {
+      /*
       SaasStart: {
         Title: "Sử dụng NextChat AI",
         Label: "(Giải pháp tiết kiệm chi phí nhất)",
@@ -300,16 +301,19 @@ const vi: PartialLocaleType = {
           "Được NextChat chính thức duy trì, sẵn sàng sử dụng mà không cần cấu hình, hỗ trợ các mô hình lớn mới nhất như OpenAI o1, GPT-4o và Claude-3.5",
         ChatNow: "Chat ngay",
       },
+      */
 
       AccessCode: {
         Title: "Mật khẩu truy cập",
         SubTitle: "Quản trị viên đã bật truy cập mã hóa",
         Placeholder: "Nhập mật khẩu truy cập",
       },
+      /*
       CustomEndpoint: {
         Title: "Giao diện tùy chỉnh",
         SubTitle: "Có sử dụng dịch vụ Azure hoặc OpenAI tùy chỉnh không",
       },
+      */
       Provider: {
         Title: "Nhà cung cấp dịch vụ mô hình",
         SubTitle: "Chuyển đổi giữa các nhà cung cấp khác nhau",

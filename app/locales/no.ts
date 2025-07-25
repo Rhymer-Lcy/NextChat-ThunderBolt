@@ -27,8 +27,8 @@ const no: PartialLocaleType = {
     Return: "Tilbake",
     SaasTips:
       "Konfigurasjonen er for komplisert, jeg vil bruke det med en gang",
-    TopTips:
-      "🥳 NextChat AI lanseringstilbud, lås opp OpenAI o1, GPT-4o, Claude-3.5 og de nyeste store modellene nå",
+    // TopTips:
+    //   "🥳 NextChat AI lanseringstilbud, lås opp OpenAI o1, GPT-4o, Claude-3.5 og de nyeste store modellene nå",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} samtaler`,
@@ -299,6 +299,7 @@ const no: PartialLocaleType = {
     },
 
     Access: {
+      /*
       SaasStart: {
         Title: "Bruk NextChat AI",
         Label: "(Den mest kostnadseffektive løsningen)",
@@ -306,16 +307,19 @@ const no: PartialLocaleType = {
           "Offisielt vedlikeholdt av NextChat, klar til bruk uten konfigurasjon, støtter de nyeste store modellene som OpenAI o1, GPT-4o og Claude-3.5",
         ChatNow: "Chat nå",
       },
+      */
 
       AccessCode: {
         Title: "Adgangskode",
         SubTitle: "Administrator har aktivert kryptert tilgang",
         Placeholder: "Skriv inn tilgangskoden",
       },
+      /*
       CustomEndpoint: {
         Title: "Egendefinert API",
         SubTitle: "Bruk egendefinerte Azure- eller OpenAI-tjenester",
       },
+      */
       Provider: {
         Title: "Modelltilbyder",
         SubTitle: "Bytt til forskjellige tilbydere",

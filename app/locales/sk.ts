@@ -27,8 +27,8 @@ const sk: PartialLocaleType = {
     Later: "Neskôr",
     Return: "Návrat",
     SaasTips: "Nastavenie je príliš zložité, chcem to okamžite použiť",
-    TopTips:
-      "🥳 Uvítacia ponuka NextChat AI, okamžite odomknite OpenAI o1, GPT-4o, Claude-3.5 a najnovšie veľké modely",
+    // TopTips:
+    //   "🥳 Uvítacia ponuka NextChat AI, okamžite odomknite OpenAI o1, GPT-4o, Claude-3.5 a najnovšie veľké modely",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} správ`,
@@ -291,6 +291,7 @@ const sk: PartialLocaleType = {
       NoAccess: "Zadajte API kľúč na skontrolovanie zostatku",
     },
     Access: {
+      /*
       SaasStart: {
         Title: "Použite NextChat AI",
         Label: "(Najvýhodnejšie riešenie)",
@@ -298,16 +299,19 @@ const sk: PartialLocaleType = {
           "Oficiálne udržiavané NextChat, pripravené na použitie bez konfigurácie, podporuje najnovšie veľké modely ako OpenAI o1, GPT-4o a Claude-3.5",
         ChatNow: "Chatovať teraz",
       },
+      */
 
       AccessCode: {
         Title: "Prístupový kód",
         SubTitle: "Povolený prístupový kód",
         Placeholder: "Zadajte kód",
       },
+      /*
       CustomEndpoint: {
         Title: "Vlastný koncový bod",
         SubTitle: "Použiť vlastnú službu Azure alebo OpenAI",
       },
+      */
       Provider: {
         Title: "Poskytovateľ modelu",
         SubTitle: "Vyberte Azure alebo OpenAI",

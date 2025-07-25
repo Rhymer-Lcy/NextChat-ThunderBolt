@@ -26,8 +26,8 @@ const id: PartialLocaleType = {
     Later: "Nanti",
     Return: "Kembali",
     SaasTips: "Konfigurasi terlalu rumit, saya ingin menggunakannya segera",
-    TopTips:
-      "🥳 Penawaran Peluncuran NextChat AI, buka OpenAI o1, GPT-4o, Claude-3.5 dan model besar terbaru sekarang",
+    // TopTips:
+    //   "🥳 Penawaran Peluncuran NextChat AI, buka OpenAI o1, GPT-4o, Claude-3.5 dan model besar terbaru sekarang",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} percakapan`,
@@ -295,6 +295,7 @@ const id: PartialLocaleType = {
     },
 
     Access: {
+      /*
       SaasStart: {
         Title: "Gunakan NextChat AI",
         Label: "(Solusi paling hemat biaya)",
@@ -302,16 +303,19 @@ const id: PartialLocaleType = {
           "Dikelola secara resmi oleh NextChat, siap digunakan tanpa konfigurasi, mendukung model besar terbaru seperti OpenAI o1, GPT-4o, dan Claude-3.5",
         ChatNow: "Chat Sekarang",
       },
+      */
 
       AccessCode: {
         Title: "Kata Sandi Akses",
         SubTitle: "Administrator telah mengaktifkan akses terenkripsi",
         Placeholder: "Masukkan kata sandi akses",
       },
+      /*
       CustomEndpoint: {
         Title: "Antarmuka Kustom",
         SubTitle: "Apakah akan menggunakan layanan Azure atau OpenAI kustom",
       },
+      */
       Provider: {
         Title: "Penyedia Layanan Model",
         SubTitle: "Ganti penyedia layanan yang berbeda",
