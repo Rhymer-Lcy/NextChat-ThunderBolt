@@ -672,6 +672,7 @@ export function ChatActions(props: {
           icon={<PromptIcon />}
         />
         */ }
+        {/* 
         <ChatAction
           onClick={() => {
             navigate(Path.Masks);
@@ -679,6 +680,7 @@ export function ChatActions(props: {
           text={Locale.Chat.InputActions.Masks}
           icon={<MaskIcon />}
         />
+        */ }
         <ChatAction
           text={Locale.Chat.InputActions.Clear}
           icon={<BreakIcon />}
