@@ -49,7 +49,7 @@ const ALL_LANGS = {
   sk, */
 };
 
-export type Lang = keyof typeof ALL_LANGS;
+export type Lang = "cn" | "en" | "tw"; // keyof typeof ALL_LANGS;
 
 export const AllLangs = Object.keys(ALL_LANGS) as Lang[];
 
