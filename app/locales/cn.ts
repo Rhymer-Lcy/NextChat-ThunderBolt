@@ -26,8 +26,8 @@ const cn = {
     Confirm: "确认",
     Later: "稍后再说",
     SaasTips: "配置太麻烦，想要立即使用",
-    TopTips:
-      "🥳 NextChat AI 首发优惠，立刻解锁 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
+    // TopTips:
+    //   "🥳 NextChat AI 首发优惠，立刻解锁 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -311,6 +311,7 @@ const cn = {
     },
 
     Access: {
+      /*
       SaasStart: {
         Title: "使用 NextChat AI",
         Label: "（性价比最高的方案）",
@@ -318,15 +319,18 @@ const cn = {
           "由 NextChat 官方维护, 零配置开箱即用，支持 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
         ChatNow: "立刻对话",
       },
+      */
       AccessCode: {
         Title: "访问密码",
         SubTitle: "管理员已开启加密访问",
         Placeholder: "请输入访问密码",
       },
+      /*
       CustomEndpoint: {
         Title: "自定义接口",
         SubTitle: "是否使用自定义 Azure 或 OpenAI 服务",
       },
+      */
       Provider: {
         Title: "模型服务商",
         SubTitle: "切换不同的服务商",

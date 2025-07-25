@@ -694,6 +694,7 @@ export function Settings() {
     </ListItem>
   );
 
+  /*
   const saasStartComponent = (
     <ListItem
       className={styles["subtitle-button"]}
@@ -737,6 +738,7 @@ export function Settings() {
         ></input>
       </ListItem>
     );
+    */
 
   const openAIConfigComponent = accessStore.provider ===
     ServiceProvider.OpenAI && (
@@ -1816,12 +1818,12 @@ export function Settings() {
         </List>
 
         <List id={SlotID.CustomModel}>
-          {saasStartComponent}
+          {/* saasStartComponent */}
           {accessCodeComponent}
 
           {!accessStore.hideUserApiKey && (
             <>
-              {useCustomConfigComponent}
+              {/* useCustomConfigComponent */}
 
               {accessStore.useCustomConfig && (
                 <>
