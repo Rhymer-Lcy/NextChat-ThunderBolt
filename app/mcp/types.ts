@@ -1,7 +1,8 @@
 // ref: https://spec.modelcontextprotocol.io/specification/basic/messages/
 
 import { z } from "zod";
-import { Client } from "@modelcontextprotocol/sdk/client/index.js";
+import { Client } from "../../typescript-sdk/dist/esm/client/index.js";
+// import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 
 export interface McpRequestMessage {
   jsonrpc?: "2.0";

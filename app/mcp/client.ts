@@ -1,5 +1,7 @@
-import { Client } from "@modelcontextprotocol/sdk/client/index.js";
-import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
+import { Client } from "../../typescript-sdk/dist/esm/client/index.js";
+import { StdioClientTransport } from "../../typescript-sdk/dist/esm/client/stdio.js";
+// import { Client } from "@modelcontextprotocol/sdk/client/index.js";
+// import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
 import { MCPClientLogger } from "./logger";
 import { ListToolsResponse, McpRequestMessage, ServerConfig } from "./types";
 import { z } from "zod";
