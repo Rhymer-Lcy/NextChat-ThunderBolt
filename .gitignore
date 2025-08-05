@@ -51,4 +51,4 @@ masks.json
 app/mcp/mcp_config.json
 
 # Ignore typescript-sdk in project root
-/typescript-sdk
+# /typescript-sdk
