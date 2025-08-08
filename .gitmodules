@@ -1,0 +1,6 @@
+[submodule "sdk"]
+	path = sdk
+	url = https://github.com/Rhymer-Lcy/typescript-sdk.git
+[submodule "typescript-sdk"]
+	path = typescript-sdk
+	url = https://github.com/Rhymer-Lcy/typescript-sdk.git
