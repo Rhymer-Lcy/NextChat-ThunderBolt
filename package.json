@@ -1,12 +1,15 @@
 {
   "name": "nextchat",
-  "private": false,
+  "private": true,
+  "workspaces": [
+    "typescript-sdk"
+  ],
   "license": "mit",
   "scripts": {
     "mask": "npx tsx app/masks/build.ts",
     "mask:watch": "npx watch \"yarn mask\" app/masks",
     "dev": "concurrently -r \"yarn run mask:watch\" \"next dev\"",
-    "build": "cd typescript-sdk && yarn install && yarn build && cd .. && yarn mask && cross-env BUILD_MODE=standalone next build",
+    "build": "yarn workspace @modelcontextprotocol/sdk build && yarn mask && cross-env BUILD_MODE=standalone next build",
     "start": "next start",
     "lint": "next lint",
     "export": "yarn mask && cross-env BUILD_MODE=export BUILD_APP=1 next build",
@@ -56,9 +59,7 @@
     "spark-md5": "^3.0.2",
     "use-debounce": "^9.0.4",
     "zod": "^3.24.1",
-    "zustand": "^4.3.8",
-    "pkce-challenge": "^5.0.0",
-    "zod-to-json-schema": "^3.24.1"
+    "zustand": "^4.3.8"
   },
   "devDependencies": {
     "@tauri-apps/api": "^2.1.1",
