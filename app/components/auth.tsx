@@ -5,19 +5,13 @@ import { useNavigate } from "react-router-dom";
 import { Path, SAAS_CHAT_URL } from "../constant";
 import { useAccessStore } from "../store";
 import Locale from "../locales";
-import Delete from "../icons/close.svg";
-import Arrow from "../icons/arrow.svg";
-import Logo from "../icons/logo.svg";
 import { useMobileScreen } from "@/app/utils";
 import BotIcon from "../icons/bot.svg";
 import { getClientConfig } from "../config/client";
 import { PasswordInput } from "./ui-lib";
 import LeftIcon from "@/app/icons/left.svg";
 import { safeLocalStorage } from "@/app/utils";
-import {
-  trackSettingsPageGuideToCPaymentClick,
-  trackAuthorizationPageButtonToCPaymentClick,
-} from "../utils/auth-settings-events";
+import { trackAuthorizationPageButtonToCPaymentClick } from "../utils/auth-settings-events";
 import clsx from "clsx";
 
 const storage = safeLocalStorage();
@@ -77,7 +71,7 @@ export function AuthPage() {
         }}
       />
 
-      {!accessStore.hideUserApiKey ? (
+      {/* {!accessStore.hideUserApiKey ? (
         <>
           <div className={styles["auth-tips"]}>{Locale.Auth.SubTips}</div>
           <PasswordInput
@@ -107,7 +101,7 @@ export function AuthPage() {
             }}
           />
         </>
-      ) : null}
+      ) : null} */}
 
       <div className={styles["auth-actions"]}>
         <IconButton
@@ -115,12 +109,12 @@ export function AuthPage() {
           type="primary"
           onClick={goChat}
         />
-        <IconButton
+        {/* <IconButton
           text={Locale.Auth.SaasTips}
           onClick={() => {
             goSaas();
           }}
-        />
+        /> */}
       </div>
     </div>
   );
